@@ -9,7 +9,7 @@
 // ENABLE|	GND (or GPIO if used)	|Enable motor (LOW = enabled)
 // MS1, MS2, MS3|	GND (or left floating)|	Microstepping (Full step)
 // RESET & SLEEP|	Shorted together|	Keeps driver active
-
+// Try to keep reset and sleep short
 #define STEP_PIN 25 
 #define DIR_PIN 26  
 
